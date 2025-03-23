@@ -70,7 +70,7 @@ exports.getUser = async (req, res) => {
     if (!user) {
       return res.status(400).send("User not found");
     }
-    
+
     res.status(200).json({
       success: true,
       message: "User retrieved successfully",

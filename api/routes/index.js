@@ -7,5 +7,6 @@ router.get("/", (req, res) => {
 
 require("./AuthRoutes")(router);
 require("./GameRotes")(router);
+require("./ProductRoutes")(router);
 
 module.exports.router = router;
